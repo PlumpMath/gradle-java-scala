@@ -1,0 +1,2 @@
+include 'main', 'submodule'
+rootProject.name = 'gradle-java-scala'

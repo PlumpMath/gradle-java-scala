@@ -1,0 +1,8 @@
+dependencies {
+    testCompile 'org.codehaus.groovy:groovy-all:2.4.6'
+}
+
+compileTestGroovy {
+    dependsOn = [compileTestScala]
+    groovyOptions.fork = false
+}
